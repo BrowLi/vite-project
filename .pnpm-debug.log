@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: installl",
+      "code": "ENOENT",
+      "stack": "Error: not found: installl\n    at getNotFoundError (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:41455:51)\n    at Function.whichSync [as sync] (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:41532:13)\n    at getCommandAbsolutePathSync (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:43097:44)\n    at default_1 (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:43106:32)\n    at /Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:179764:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/karry/Desktop/learn/vite/vite-project",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: installl",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: installl\n    at getNotFoundError (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:41455:51)\n    at Function.whichSync [as sync] (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:41532:13)\n    at getCommandAbsolutePathSync (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:43097:44)\n    at default_1 (/Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:43106:32)\n    at /Users/karry/pnpm-global/5/node_modules/.pnpm/pnpm@6.24.4/node_modules/pnpm/dist/pnpm.cjs:179764:39"
+    }
+  }
+}
