@@ -1,0 +1,16 @@
+vite-project:
+  # 镜像号
+  image: images:laster
+  container_name: vite-project
+  restart: always
+  environment:
+    - NODE_ENV=development
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "10m"
+  network_mode: host
+  ports:
+    - "3000:3000"
+  volumes:
+    - /nginx/projectFilePath:/app_static/
